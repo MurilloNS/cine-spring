@@ -18,7 +18,7 @@ public class Client {
 		this.email = email;
 		this.senha = senha;
 	}
-
+ssssssssssss
 	public Long getId() {
 		return id;
 	}
