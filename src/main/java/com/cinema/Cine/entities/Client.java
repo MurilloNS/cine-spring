@@ -2,7 +2,12 @@ package com.cinema.Cine.entities;
 
 import java.util.Objects;
 
+import javax.persistence.*;
+
+@Entity
 public class Client {
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	public Long id;
 	public String name;
 	public Integer age;
@@ -18,7 +23,7 @@ public class Client {
 		this.email = email;
 		this.senha = senha;
 	}
-ssssssssssss
+
 	public Long getId() {
 		return id;
 	}
