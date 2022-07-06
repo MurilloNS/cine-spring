@@ -1,2 +1,2 @@
 # cine-spring
-Projeto o sistema de um cinema
+Projeto do sistema de um cinema
